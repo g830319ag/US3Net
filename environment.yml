@@ -1,0 +1,16 @@
+name: US3Net
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pytorch==2.3.1
+  - torchvision==0.18.1 
+  - cudatoolkit=12.1
+  - matplotlib
+  - numpy
+  - tqdm
+  - opencv
+  - pip:
+    - chardetp
