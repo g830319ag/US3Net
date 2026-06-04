@@ -40,6 +40,18 @@ The filename of checkpoint is `US3Net_kitti_training.cpt`.
 python evaluate.py --load_cpt_path US3Net_kitti_training.cpt \
                    --data_path <dataset path> 
 ```
-
+## Citations
+```Bibtex
+@article{jen2026us,
+  title={US $$\^{} 3$$ Net: Ultralightweight Self-Supervised Stereo Matching Network using Depth-Aware Geometric Soft Occlusion},
+  author={Jen, Po-Chung and Liu, Tzu-Chi and Fang, I and Wen, Hsiao-Chieh and Hsu, Chia-Lun and Chen, Ping-Yang and Lee, Chang-Hsing and Chen, Yong-Sheng and others},
+  journal={International Journal of Computer Vision},
+  volume={134},
+  number={6},
+  pages={286},
+  year={2026},
+  publisher={Springer}
+}
+```
 ## Acknowledgement
 This code is based on [ES3Net](https://github.com/IShengFang/ES3Net). We thank the original authors for their excellent works.
